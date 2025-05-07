@@ -20,6 +20,9 @@ getDataBaseConnection();
 // routers
 app.use('/api/auth',authRouters);
 app.use('/api',authRouters);
+app.get('/', (req, res) => {
+    res.send('Server is up!');
+  });
 
 
 

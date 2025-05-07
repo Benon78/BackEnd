@@ -51,6 +51,7 @@ routers.get("/admin", authMiddleware, adminAuthMiddleware, (req, res) => {
   });
 });
 
+// router for setup confirmation on render
 
 
 
